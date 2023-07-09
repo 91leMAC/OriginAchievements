@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:leather"
+      },
+      "title": "I am a Deer!",
+      "description": "You became the Deer origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_deer": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "grounded_origins:deer"
+        }
+      }
+    }
+  }
+  

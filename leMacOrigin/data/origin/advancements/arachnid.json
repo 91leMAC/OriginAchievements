@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "title": "I am the Arachnid!",
+        "description": "You became the Arachnid origin.",
+        "announce_to_chat": true,
+        "frame": "task",
+        "show_toast": true
+    },
+    "criteria": {
+        "chose_arachnid": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "origins:arachnid"
+            }
+        }
+    }
+}

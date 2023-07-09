@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:sunflower"
+      },
+      "title": "I am a Adapted Bird Of Prey!",
+      "description": "You became the Bird of Prey origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_birdofprey": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "strictly:birdofprey"
+        }
+      }
+    }
+  }
+  

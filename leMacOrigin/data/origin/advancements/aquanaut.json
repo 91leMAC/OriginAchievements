@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:trident"
+      },
+      "title": "I am a Aquanaut!",
+      "description": "You became the Aquanaut origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_aquanaut": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "golemancy:aquanaut"
+        }
+      }
+    }
+  }
+  

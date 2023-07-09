@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "title": "I am a Thief!",
+      "description": "You became the Thief origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_thief": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "strictly:thief"
+        }
+      }
+    }
+  }
+  

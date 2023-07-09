@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:tripwire_hook"
+      },
+      "title": "I am a Faker!",
+      "description": "You became the Faker origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_faker": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "macro:faker"
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "title": "I am the Feline!",
+        "description": "You became the Feline origin.",
+        "announce_to_chat": true,
+        "frame": "task",
+        "show_toast": true
+    },
+    "criteria": {
+        "chose_feline": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "origins:feline"
+            }
+        }
+    }
+}

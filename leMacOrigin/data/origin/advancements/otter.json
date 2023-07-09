@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:water_bucket"
+      },
+      "title": "I am a Otter!",
+      "description": "You became the Otter origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_otter": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "strictly:otter"
+        }
+      }
+    }
+  }
+  

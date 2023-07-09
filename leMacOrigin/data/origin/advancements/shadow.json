@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:black_stained_glass"
+      },
+      "title": "I am a Shadow!",
+      "description": "You became the Shadow origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_shadow": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "origins-plus-plus:shadow"
+        }
+      }
+    }
+  }
+  

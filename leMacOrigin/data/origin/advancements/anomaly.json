@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "title": "I am a Anomaly!",
+      "description": "You became the Anomaly origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_anomaly": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "origins-plus-plus:anomaly"
+        }
+      }
+    }
+  }
+  

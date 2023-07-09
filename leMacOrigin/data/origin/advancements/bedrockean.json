@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:bedrock"
+      },
+      "title": "I am a Bedrockean!",
+      "description": "You became the Bedrockean origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_bedrockean": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "origins-plus-plus:bedrockean"
+        }
+      }
+    }
+  }
+  

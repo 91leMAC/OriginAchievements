@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:glass"
+      },
+      "title": "I am a Glass Golem!",
+      "description": "You became the Glass Golem origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_glass_golem": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "golemancy:glass_golem"
+        }
+      }
+    }
+  }
+  

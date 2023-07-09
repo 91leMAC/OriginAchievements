@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_sword"
+      },
+      "title": "I am a Paladin!",
+      "description": "You became the Paladin origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_paladin": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "strictly:paladin"
+        }
+      }
+    }
+  }
+  

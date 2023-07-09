@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:shulker_shell"
+      },
+      "title": "I am a Shulk!",
+      "description": "You became the Shulk origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_shulk": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "origins:shulk"
+        }
+      }
+    }
+  }
+  

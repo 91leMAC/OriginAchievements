@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:moss_block"
+      },
+      "title": "I am a Moss!",
+      "description": "You became the Moss origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_mosskin": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "moss:mosskin"
+        }
+      }
+    }
+  }
+  

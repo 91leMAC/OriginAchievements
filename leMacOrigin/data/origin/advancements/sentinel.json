@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_helmet"
+      },
+      "title": "I am a Sentinel!",
+      "description": "You became the Sentinel origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_sentinel": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "golemancy:sentinel"
+        }
+      }
+    }
+  }
+  

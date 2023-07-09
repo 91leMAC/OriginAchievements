@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "title": "I am a Wanderer!",
+      "description": "You became the Wanderer origin.",
+      "announce_to_chat": true,
+      "frame": "task",
+      "show_toast": true
+    },
+    "criteria": {
+      "chose_wanderer": {
+        "trigger": "origins:chose_origin",
+        "conditions": {
+          "origin": "origins-plus-plus:wanderer"
+        }
+      }
+    }
+  }
+  
